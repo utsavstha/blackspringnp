@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Page Image</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        .full-page-image {
+            background-image: url('bs.png');
+            background-size: cover;
+            background-position: center;
+            width: 50%;
+            height: 50%;
+            position: relative;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 1.5em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="full-page-image"></div>
+    <div class="message">
+        We are currently working on it. Please check back soon.
+    </div>
+</body>
+</html>
