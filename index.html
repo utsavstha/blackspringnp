@@ -1,46 +1,494 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+
+<head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BLACKSPRING</title>
-    <style>
-                @import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap');
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Helvetica Neue', sans-serif;
-        }
-        .full-page-image {
-            background-image: url('bs.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 50%;
-            height: 50%;
-            position: relative;
-        }
-        .message {
-            margin-top: 20px;
-            font-size: 1.5em;
-            text-align: center;
-        }
-    </style>
+
+    <!--Page Title-->
+    <title>BLACKSPRING | Transforming Businesses with Innovative Software Solutions</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon" />
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-    <div class="full-page-image"></div>
-    <div class="message">
-        We are currently working on it. Please check back soon.
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status" class="la-ball-triangle-path">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
-    <div class="message">
-        support@blackspring.com.np
+    <!--End of Preloader-->
+
+    <div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+        <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+        <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+        </div>
+        <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+        <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
     </div>
+
+    <div id="wrapper">
+
+        <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+            <div id="header" class="nav-collapse">
+                <div class="row clearfix">
+                    <div class="col-1">
+
+                        <!--Logo-->
+                        <div id="logo">
+
+                            <!--Logo that is shown on the banner-->
+                            <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+                            <!--End of Banner Logo-->
+
+                            <!--The Logo that is shown on the sticky Navigation Bar-->
+                            <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                            <!--End of Navigation Logo-->
+
+                        </div>
+                        <!--End of Logo-->
+
+                        <aside>
+
+                            <!--Social Icons in Header-->
+                            <ul class="social-icons">
+                                <li>
+                                    <a target="_blank" title="Facebook" href="https://www.facebook.com/blackspringnepal">
+                                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a target="_blank" title="Twitter" href="http://www.twitter.com/blackspringnepal">
+                                        <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="Instagram" href="http://www.instagram.com/blackspringnepal">
+                                        <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="Linkedin" href="http://www.linkedin.com/blackspringnepal">
+                                        <i class="fa fa-linkedin fa-1x"></i><span>Linkedin</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--End of Social Icons in Header-->
+
+                        </aside>
+
+                        <!--Main Navigation-->
+                        <nav id="nav-main">
+                            <ul>
+                                <li>
+                                    <a href="#banner">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about">About</a>
+                                </li>
+
+                                <li>
+                                    <a href="#services">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#testimonials">Testimonials</a>
+                                </li>
+                                <li>
+                                    <a href="#consult">Get in Touch</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                        <!--End of Main Navigation-->
+
+                        <div id="nav-trigger"><span></span></div>
+                        <nav id="nav-mobile"></nav>
+
+                    </div>
+                </div>
+            </div><!--End of Header-->
+
+            <!--Banner Content-->
+            <div id="banner-content" class="row clearfix">
+
+                <div class="col-38">
+
+                    <div class="section-heading">
+                        <h1>Bespoke. Secure. Compliant.</h1>
+                        <h2>Engineer software solutions that meet your exact requirements and regulatory needs.</h2>
+                    </div>
+
+                    <!--Call to Action-->
+                    <a href="#consult" class="button">Get in Touch</a>
+                    <!--End Call to Action-->
+
+                </div>
+
+            </div><!--End of Row-->
+        </header>
+
+        <!--Main Content Area-->
+        <main id="content">
+
+            <!--Introduction-->
+            <section id="about" class="introduction scrollto">
+
+                <div class="row clearfix">
+
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>SUCCESS</h3>
+                            <h2 class="section-title">Here's how we develop your software, ensuring compliance and your
+                                satisfaction</h2>
+                            <p class="section-subtitle">Delivering tailored, cutting-edge solutions with uncompromising
+                                quality, ironclad security, and unwavering transparency – your vision, our expertise,
+                                working in perfect harmony.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-2-3">
+
+                        <!--Icon Block-->
+                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+                            <!--Icon-->
+                            <div class="icon">
+                                <i class="fa fa-users fa-2x"></i>
+                            </div>
+                            <!--Icon Block Description-->
+                            <div class="icon-block-description">
+                                <h4>Collaborative<br> requirements gathering</h4>
+                                <p>We work closely with you to understand your specific needs, industry regulations, and
+                                    compliance requirements from the outset.</p>
+                            </div>
+                        </div>
+                        <!--End of Icon Block-->
+
+                        <!--Icon Block-->
+                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+                            <!--Icon-->
+                            <div class="icon">
+                                <i class="fa fa-bolt fa-2x"></i>
+                            </div>
+                            <!--Icon Block Description-->
+                            <div class="icon-block-description">
+                                <h4>Agile development with regular check-ins</h4>
+                                <p>Our iterative approach allows for frequent demonstrations and feedback sessions,
+                                    ensuring the product aligns with your expectations throughout development.</p>
+                            </div>
+                        </div>
+                        <!--End of Icon Block-->
+
+                        <!--Icon Block-->
+                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                            <!--Icon-->
+                            <div class="icon">
+                                <i class="fa fa-shield fa-2x"></i>
+                            </div>
+                            <!--Icon Block Description-->
+                            <div class="icon-block-description">
+                                <h4>Rigorous testing <br>and security protocols</h4>
+                                <p>We implement comprehensive testing procedures and adhere to industry-standard
+                                    security practices to deliver a robust, compliant solution.</p>
+                            </div>
+                        </div>
+                        <!--End of Icon Block-->
+
+                        <!--Icon Block-->
+                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                            <!--Icon-->
+                            <div class="icon">
+                                <i class="fa fa-tablet fa-2x"></i>
+                            </div>
+                            <!--Icon Block Description-->
+                            <div class="icon-block-description">
+                                <h4>Transparent documentation and knowledge transfer</h4>
+                                <p>We provide detailed documentation and conduct thorough handover sessions, empowering
+                                    your team to maintain and scale the software confidently.</p>
+                            </div>
+                        </div>
+                        <!--End of Icon Block-->
+
+                    </div>
+
+                </div>
+
+
+            </section>
+            <!--End of Introduction-->
+
+
+            
+
+
+            <!--Content Section-->
+            <div id="services" class="scrollto clearfix">
+
+                <div class="row no-padding-bottom clearfix">
+
+
+                    <!--Content Left Side-->
+                    <div class="col-3">
+                        <!--User Testimonial-->
+                        <blockquote class="testimonial text-right bigtest">
+                            <q>BlackSpring's innovative platform and deep supply chain expertise transformed our
+                                operations, giving us a significant market edge. They're a key partner, not just a
+                                vendor.
+                            </q>
+                            <footer>— Javier Madrigel, SistemacyWebSystems</footer>
+                        </blockquote>
+                        <!-- End of Testimonial-->
+
+                    </div>
+                    <!--End Content Left Side-->
+
+                    <!--Content of the Right Side-->
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>BELIEVING</h3>
+                            <h2 class="section-title">Beyond Code: Our Unwavering Commitment to Your Success</h2>
+                            <p class="section-subtitle">At the core of our approach lies a transformative philosophy:
+                                we're not just code creators, but architects of enduring alliances. What truly
+                                distinguishes us is our unwavering dedication to deeply comprehending and aligning with
+                                your business vision. While others might simply follow a blueprint, we delve into the
+                                very fabric of your industry, dissecting challenges and embracing your aspirations as
+                                our own.
+                                This immersive strategy empowers us to craft bespoke software solutions and, more
+                                critically, to uncover innovative opportunities that might otherwise remain hidden. By
+                                positioning ourselves as your strategic technology confidants, we ensure that each
+                                algorithm we design and every function we implement directly fuels your ongoing success
+                                and market leadership.</p>
+                        </div>
+                        <p>Our integration into your business ecosystem is seamless and comprehensive. We don't operate
+                            on the periphery as a typical vendor; instead, we become an organic extension of your
+                            organization. This profound level of integration grants us unique insights into your
+                            operational nuances, hurdles, and objectives. By fully embedding ourselves in your business
+                            context, we can anticipate needs, identify latent opportunities, and develop solutions that
+                            not only address current demands but also lay a robust foundation for future scalability and
+                            innovation.
+                        </p>
+                        <p>
+                            Our commitment to integration goes beyond understanding your business - it extends to how we
+                            work. We adopt your communication tools, align with your project management methodologies,
+                            and sync with your team's rhythms. This approach eliminates the traditional barriers between
+                            client and developer, fostering a collaborative environment where ideas flow freely, and
+                            solutions evolve organically. The result is software that feels less like a product we've
+                            delivered and more like a solution you've crafted alongside us, perfectly tailored to your
+                            unique business.
+                        </p>
+
+                    </div>
+                    <!--End Content Right Side-->
+
+                    <div class="col-3">
+                        <img src="images/dancer.jpg" alt="Dancer" />
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!--End of Content Section-->
+
+            <!--Testimonials-->
+            <aside id="testimonials" class="scrollto text-center clearfix" data-enllax-ratio=".2">
+
+                <div class="row clearfix">
+
+                    <div class="section-heading">
+                        <h3>FEEDBACK</h3>
+                        <h2 class="section-title">What our customers are saying</h2>
+                    </div>
+
+                    <!--User Testimonial-->
+                    <blockquote class="col-3 testimonial classic">
+                        <img src="images/user-images/user-1.png" alt="User" />
+                        <q>Working with Blackspring has been a game-changer for our business. Their team didn't just
+                            deliver a product; they became an extension of our own, diving deep into our processes and
+                            challenges. The custom ERP system they developed has streamlined our operations beyond our
+                            expectations, resulting in a 30% increase in overall efficiency. Their proactive approach to
+                            problem-solving and commitment to our long-term success sets them apart in the industry.</q>
+                        <footer>Sarah Chen - CTO, GreenTech Innovations</footer>
+                    </blockquote>
+                    <!-- End of Testimonial-->
+
+                    <!--User Testimonial-->
+                    <blockquote class="col-3 testimonial classic">
+                        <img src="images/user-images/user-2.png" alt="User" />
+                        <q>I've collaborated with numerous software providers over my 20-year career, but BlackSpring
+                            stands out for their exceptional partnership approach. They took the time to understand our
+                            unique market position and regulatory environment, delivering a compliance management
+                            solution that not only meets our current needs but is flexible enough to adapt to future
+                            regulations. Their responsiveness and technical expertise are unmatched</q>
+                        <footer>Michael Rodriguez - CEO, Quantum Logistics Solutions</footer>
+                    </blockquote>
+                    <!-- End of Testimonial-->
+
+                    <!--User Testimonial-->
+                    <blockquote class="col-3 testimonial classic">
+                        <img src="images/user-images/user-3.png" alt="User" />
+                        <q>When we embarked on our digital transformation journey, we needed more than just a software
+                            vendor - we needed a strategic partner. BLACKSPRING exceeded our expectations on all fronts.
+                            They seamlessly integrated with our team, adopted our workflows, and brought innovative
+                            ideas to the table that we hadn't even considered. The result is a robust, scalable platform
+                            that has positioned us as a leader in our industry. Their commitment to our success is
+                            evident in every interaction.</q>
+                        <footer>Dr. Emily Tanner - COO, GlobalCore Logistics</footer>
+                    </blockquote>
+                    <!-- End of Testimonial-->
+
+                </div>
+
+            </aside>
+            <!--End of Testimonials-->
+
+            <!--Clients-->
+            <section id="consult" class="secondary-color scrollto clearfix" >
+                <div class="row">
+
+                    <div class="col-3">
+
+                        <div class="section-heading">
+                            <h3>Get in Touch</h3>
+                            <h2 class="section-title">Schedule a Strategic Consultation</h2>
+                            <p class="section-subtitle">Explore how technology can elevate your business. Our
+                                consultants will analyze your needs and design practical software solutions to boost
+                                efficiency and growth.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-2-3">
+
+                        <form id="contact-form" method="post">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                    
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                            
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company" placeholder="The company you represent" required>
+                    
+                            <label for="message">Message</label>
+                            <textarea rows="6" id="message" name="message" placeholder="Your Message" required></textarea>
+                    
+                            <button type="submit" id="submit" class="button">SCHEDULE NOW</button>
+                        </form>
+                        <div id="status-message"></div>
+                    </div>
+
+                </div>
+            </section>
+            <!--End of Clients-->
+
+            <!--Pricing Tables-->
+            <section id="pricing" class="secondary-color text-center scrollto clearfix ">
+                <div class="row clearfix">
+                </div>
+            </section>
+            <!--End of Pricing Tables-->
+
+        </main>
+        <!--End Main Content Area-->
+
+
+        <!--Footer-->
+        <footer id="landing-footer" class="clearfix">
+
+        </footer>
+        <!--End of Footer-->
+
+    </div>
+
+    <!-- Include JavaScript resources -->
+    <script src="js/jquery.1.8.3.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/featherlight.min.js"></script>
+    <script src="js/featherlight.gallery.min.js"></script>
+    <script src="js/jquery.enllax.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.stickyNavbar.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/images-loaded.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/site.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfZ0wIqAAAAAIyu_Wdf-8K0B6jY7y9fYAWmn0yR"></script>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6LfZ0wIqAAAAAIyu_Wdf-8K0B6jY7y9fYAWmn0yR', {action: 'submit'}).then(function(token) {
+                    // Add your logic to submit to your backend server here.
+                    const formData = {
+                        name: document.getElementById('name').value,
+                        email: document.getElementById('email').value,
+                        message: document.getElementById('message').value,
+                        recaptcha_token: token
+                    };
+
+                    fetch('https://api.example.com/submit-form', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(formData),
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        showStatus('Form submitted successfully!', 'success');
+                        document.getElementById('contact-form').reset();
+                    })
+                    .catch((error) => {
+                        showStatus('An error occurred. Please try again.', 'error');
+                        console.error('Error:', error);
+                    });
+                });
+            });
+
+            
+        });
+
+        function showStatus(message, type) {
+            const statusDiv = document.getElementById('status-message');
+            statusDiv.textContent = message;
+            statusDiv.className = type;
+            statusDiv.style.display = 'block';
+
+            setTimeout(() => {
+                statusDiv.style.display = 'none';
+            }, 5000);
+        }
+    </script>
+
+
 </body>
+
 </html>
